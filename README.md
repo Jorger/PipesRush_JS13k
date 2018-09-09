@@ -28,6 +28,12 @@ now
 
 Se ha hecho uso de canvas, además de la librería [jsfxr] para genreación de sonidos
 
+### TODO
+
+- [ ] Crear editor de escenarios.
+- [ ] Adicionar imágenes de diferentes resolciones para el archivo manifest.json
+- [ ] Escribir artículo postmortem del desarrollo.
+
 
 ### Autor
 * Jorge Rubaino [@ostjh]
