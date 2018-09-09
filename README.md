@@ -18,7 +18,7 @@ Existen 44 niveles los cuales contienen diferente tipos de difiucultad.
 
 ## Despliegue
 
-Se ha deplegado la aplicación en el servicio conocido como [now], comando que se ejecuta en la carpeta zip de la aplicación.
+Se ha deplegado la aplicación en el servicio conocido como [now], comando que se ejecuta en la carpeta zip de la aplicación, aunque se espera que el juego sea visto en el sitio de JS13K, una vez haya sido admitido.
 
 ```
 now
