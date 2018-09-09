@@ -8,7 +8,7 @@ Juego realizado para la competencia [JS13K], inspirado en el juego Pipes de [Puz
 
 ## Objetivo.
 
-El objetivo del juego es la obtención de un valor, el cual deberá conseguirse haciendo uso los botones dados en el teclado, además de tener un número fijo de movimientos.
+El objetivo del juego es la de conectar todos los pipes que se encentran en el escenario con su respectivo color, en algunas ocasiones será necesario commbiar colores para lograr el objetivo.
 
 ![image](https://github.com/Jorger/PipesRush_JS13k/blob/master/pipes.gif?raw=true)
 
