@@ -10,7 +10,7 @@ Juego realizado para la competencia [JS13K], inspirado en el juego Pipes de [Puz
 
 El objetivo del juego es la obtención de un valor, el cual deberá conseguirse haciendo uso los botones dados en el teclado, además de tener un número fijo de movimientos.
 
-![image](https://github.com/Jorger/Calculator_The_Game_ReactJS/blob/master/images/resolve_level.gif?raw=true)
+![image](https://github.com/Jorger/PipesRush_JS13k/blob/master/pipes.gif?raw=true)
 
 ## Niveles
 
