@@ -1,0 +1,185 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="icon.png" />
+    <title>Pipes Rush</title>
+    <meta name=theme-color content=#000000>
+    <link rel=manifest href=m.json>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        @keyframes s {
+            from {
+                transform: translate3d(-100%, 0, 0)
+            }
+            to {
+                transform: translate3d(0, 0, 0)
+            }
+        }
+
+        .s {
+            animation-duration: .6s;
+            animation-fill-mode: both;
+            animation-name: s
+        }
+
+        html,
+        body {
+            font-family: Arial;
+            overflow: hidden;
+            height: 100%;
+            user-select: none;
+            background-color: #000
+        }
+
+        #f {
+            display: flex;
+            height: 100%
+        }
+
+        #c {
+            margin: auto;
+            position: relative
+        }
+
+        #g {
+            box-sizing: border-box
+        }
+
+        #t,
+        #a {
+            user-select: none;
+            outline: 0;
+            -webkit-tap-highlight-color: #ffffff00;
+            display: block;
+            position: relative;
+            margin: 0 auto;
+            background: linear-gradient(#fff 50%, #ffffff00 0) 0 0, radial-gradient(circle closest-side, #fff 53%, #ffffff00 0) 0 0, radial-gradient(circle closest-side, #fff 50%, #ffffff00 0) 55px 0 #394651;
+            background-size: 110px 200px;
+            background-repeat: repeat-x;
+            width: 320px;
+            height: 568px;
+            box-sizing: border-box
+        }
+
+        #a,
+        #m {
+            cursor: pointer
+        }
+
+        #s {
+            display: none
+        }
+
+        #m {
+            background: #fff;
+            box-sizing: border-box;
+            display: none;
+            position: absolute;
+            padding: 20px;
+            bottom: 0;
+            text-align: center;
+            z-index: 1;
+            width: 100%;
+            font-size: 1.3em
+        }
+
+        #l {
+            perspective: 1000px
+        }
+
+        #l,
+        #b {
+            width: 320px;
+            height: 568px
+        }
+
+        #p {
+            transition: .6s;
+            transform-style: preserve-3d;
+            position: relative
+        }
+
+        #t,
+        #b {
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2
+        }
+
+        #b {
+            transform: rotateY(180deg);
+            background: #f8f8f8
+        }
+
+        .i {
+            transform: rotateY(180deg)
+        }
+
+        #u {
+            text-align: center;
+            padding: 35px 0;
+            font-size: 2.5em
+        }
+
+        #o {
+            margin-top: 20px;
+            overflow-y: auto;
+            height: 427px
+        }
+
+        #w {
+            padding-left: 18px;
+            padding-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap
+        }
+
+        #w>div {
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 30px;
+            cursor: pointer
+        }
+
+        .q {
+            color: silver
+        }
+    </style>
+</head>
+
+<body>
+    <div id=f>
+        <div id=c>
+            <div id=l>
+                <div id=p>
+                    <div id=t>
+                        <div id=u>Pipes Rush</div>
+                        <div id=o>
+                            <div id=w></div>
+                        </div>
+                    </div>
+                    <div id=b>
+                        <div id=g>
+                            <div id=m class=s></div>
+                            <canvas id=a width=320 height=568></canvas>
+                            <canvas id=s width=100 height=100></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>"serviceWorker" in navigator&&(navigator.serviceWorker.register("/sw.js").then(function(){console.log("SW Registered")}),navigator.serviceWorker.ready.then(function(){console.log("SW Ready")}));</script>
+</body>
+</html>
