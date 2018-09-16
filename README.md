@@ -2,6 +2,8 @@
 
 Juego realizado para la competencia [JS13K], inspirado en el juego Pipes de [Puzzlerama], el usuario deberá unir los pipes, antes de que el tiempo se termine, si se está offline se entregará más tiempo, igualmente si el juego se adicionado al escritorio (PWA)
 
+#[Postmortem]
+
 # [DEMO]
 
 # El juego.
@@ -32,7 +34,7 @@ Se ha hecho uso de canvas, además de la librería [jsfxr] para genreación de s
 
 - [ ] Crear editor de escenarios.
 - [ ] Adicionar imágenes de diferentes resolciones para el archivo manifest.json
-- [ ] Escribir artículo postmortem del desarrollo.
+- [x] Escribir artículo postmortem del desarrollo.
 
 
 ### Autor
@@ -48,3 +50,4 @@ MIT
 [DEMO]:https://pipes-rush-js13k.now.sh
 [jsfxr]:https://github.com/mneubrand/jsfxr
 [now]:https://zeit.co/now
+[Postmortem]:https://medium.com/@ostjh/pipes-rush-js13k-f4679d175f74
