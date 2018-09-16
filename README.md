@@ -2,7 +2,7 @@
 
 Juego realizado para la competencia [JS13K], inspirado en el juego Pipes de [Puzzlerama], el usuario deberá unir los pipes, antes de que el tiempo se termine, si se está offline se entregará más tiempo, igualmente si el juego se adicionado al escritorio (PWA)
 
-#[Postmortem]
+# [Postmortem]
 
 # [DEMO]
 
